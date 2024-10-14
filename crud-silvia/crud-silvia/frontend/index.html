@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Aplikasi CRUD Ikan</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1>Aplikasi CRUD Ikan</h1>
+      <input
+        type="text"
+        id="ikanNama"
+        class="form-control"
+        placeholder="Nama Ikan"
+      />
+      <button id="addIkan" class="btn btn-primary mt-3">Tambah Ikan</button>
+      <button
+        id="updateIkan"
+        class="btn btn-warning mt-3"
+        style="display: none"
+      >
+        Update Ikan
+      </button>
+      <ul id="ikanList" class="list-group mt-3"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
